@@ -7,8 +7,6 @@ const sectionLabelMap = {
 
 const fallbackSection = 'Misc Changes'
 
-// --------------------------------------------------
-
 const prNumberRegex = /\(#([-0-9]+)\)$/
 
 const getCommitPullRequest = async (commit, github) => {
